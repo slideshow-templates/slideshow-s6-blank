@@ -1,0 +1,32 @@
+@import url(s6/slides.css); /* required to make the slide show run at all */
+     
+html, body { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; }
+
+a:visited { color: black; }
+
+h1 { font-size: 30pt;  }
+h2 { font-size: 28pt;  }
+h3 { font-size: 25pt;  }
+p, li, td, th { font-size: 18pt; }
+
+pre { font-size: 16pt;  }
+
+pre.code { 
+        background-color: azure;
+        padding: 5px;
+      }
+
+div.code {
+        background-color: azure;
+        padding: 5px;
+}
+
+ul { list-style-type: square; }    
+
+/*** style rules for steps **** /     
+
+.step { color: gray; }
+/* or hide next steps e.g.  .step { visibility: hidden; } */
+.stepcurrent { color: yellow; }
+
+<%= content_for :css %>
