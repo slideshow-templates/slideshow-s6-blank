@@ -6,6 +6,7 @@ a Slide Show (S9) template pack.
 
 Note, this template pack includes **no** vector graphics gradient themes "out-of-the-box".
 The background is blank (white) and the text color is black.
+Change the background and colors to your need.
  
 ## Try It Yourself - How To Use the Template Pack
 
