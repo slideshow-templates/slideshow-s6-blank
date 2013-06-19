@@ -1,4 +1,4 @@
-# s6blank - Slide Show (S9) Template Pack
+# S6 Blank - Slide Show (S9) Template Pack
 
 ## What's Slide Show (S9)?
 
@@ -8,7 +8,7 @@ More [Slide Show (S9) Project Site »](http://slideshow-s9.github.io)
 
 ## Intro
 
-The [S6 Blank](http://github.com/geraldb/s6) package bundled up into 
+The [S6 Blank](https://github.com/geraldb/s6) package bundled up into 
 a Slide Show (S9) template pack.
 
 Note, this template pack includes **no** vector graphics gradient themes "out-of-the-box".
