@@ -1,3 +1,12 @@
+---
+---
+
+{% if jekyll.version %}
+{% else %}
+  {% capture more_content_for_css %}{{ content_for :css }}{% endcapture %}
+{% endif %}
+
+
 @import url(s6/projection.css); /* required to make the slide show run at all */
      
 body { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; }
@@ -88,4 +97,5 @@ p.tiny     { font-size: 82%; }
 .stepcurrent { color: black; }
 
 
-<%= content_for :css %>
+{{ more_content_for_css }}
+

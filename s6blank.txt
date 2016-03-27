@@ -1,7 +1,7 @@
 #  S6 blank template package manifest
 
-__file__.html   slides.html.erb
-__file__.css    style.css.erb
+__file__.html   slides.html
+__file__.css    style.css
 
 # styles
 
@@ -19,4 +19,5 @@ s6/jquery.slideshow.js
 # -- use html-to-pdf tool (such as wkhtmltopdf, prince, etc) to generate pdf
 # -- from javascript free web page
 
-__file__.pdf.html  slides.pdf.html.erb
+__file__.pdf.html  slides.pdf.html
+

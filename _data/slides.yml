@@ -1,79 +1,82 @@
 headers:
-- title:     Slide Show (S9) 10-Minute Tutorial
-- author:    Gerald Bauer et al
-- generator: GitHub Pages w/ Jekyll
+  title:     Slide Show (S9) 10-Minute Tutorial
+  author:    Gerald Bauer et al
+  generator: GitHub Pages w/ Jekyll
+  footer:    Your Footer Here
+  subfooter: Your Subfooter Here
+
 
 content: |
   <div class='slide'>
   <h1>Slide Show (S9) 10-Minute Tutorial</h1>
   <p>Agenda</p>
   <ul>
-	<li>What&#8217;s Slide Show (S9)?</li>
-	<li>Wiki-Style Markup Language &#8211; Markdown, Textile</li>
-	<li>How it works &#8211; Just press F11!</li>
-	<li>What&#8217;s S5? What&#8217;s S6?</li>
-	<li>Bonus: Gradient Themes Using &#8220;Loss-Free&#8221; Vector Graphics in S9</li>
+    <li>What&#8217;s Slide Show (S9)?</li>
+    <li>Wiki-Style Markup Language &#8211; Markdown, Textile</li>
+    <li>How it works &#8211; Just press F11!</li>
+    <li>What&#8217;s S5? What&#8217;s S6?</li>
+    <li>Bonus: Gradient Themes Using &#8220;Loss-Free&#8221; Vector Graphics in S9</li>
   </ul>
   <hr />
   <!-- begin help -->
   <div class='help projection'>
   <p><strong>Slide Show Keyboard Controls (Help)</strong></p>
   <table>
-	<tr>
-		<td> Action </td>
-		<td> Key </td>
-	</tr>
-	<tr>
-		<td> Go to next slide </td>
-		<td> Space Bar, Right Arrow, Down Arrow, Page Down, Click Heading </td>
-	</tr>
-	<tr>
-		<td> Go to previous slide </td>
-		<td> Left Arrow, Up Arrow, Page Up </td>
-	</tr>
-	<tr>
-		<td> Toggle between slideshow and outline view (&#216;) </td>
-		<td> T </td>
-	</tr>
-	<tr>
-		<td> Show/hide slide controls (&#216; &laquo; &raquo;) </td>
-		<td> C, Move mouse to bottom right corner </td>
-	</tr>
-	<tr>
-		<td> Zoom in, zoom out, zoom reset (100%)  </td>
-		<td> Control<code>+</code>Plus, Control<code>+</code>Minus, Control<code>+</code><code>0</code> </td>
-	</tr>
+  <tr>
+    <td> Action </td>
+    <td> Key </td>
+  </tr>
+  <tr>
+    <td> Go to next slide </td>
+    <td> Space Bar, Right Arrow, Down Arrow, Page Down, Click Heading </td>
+  </tr>
+  <tr>
+    <td> Go to previous slide </td>
+    <td> Left Arrow, Up Arrow, Page Up </td>
+  </tr>
+  <tr>
+    <td> Toggle between slideshow and outline view (&#216;) </td>
+    <td> T </td>
+  </tr>
+  <tr>
+    <td> Show/hide slide controls (&#216; &laquo; &raquo;) </td>
+    <td> C, Move mouse to bottom right corner </td>
+  </tr>
+  <tr>
+    <td> Zoom in, zoom out, zoom reset (100%)  </td>
+    <td> Control<code>+</code>Plus, Control<code>+</code>Minus, Control<code>+</code><code>0</code> </td>
+  </tr>
   </table>
   </div>
   <!-- end help -->
   </div>
-
+  
   <div class='slide'>
   <h1>What&#8217;s Slide Show (S9)?</h1>
   <h3>What?</h3>
   <p>A Free Web Alternative to PowerPoint and Keynote in Ruby</p>
   <h3>Getting Started in 1-2-3 Easy Steps</h3>
   <ul>
-	<li class="step">Step 1: Write your slides in plain text using a wiki-style markup language</li>
-	<li class="step">Step 2: Build your slide show using the <code>slideshow</code> gem</li>
-	<li class="step">Step 3: Open up your slide show in your browser and hit the space bar to flip through your slides</li>
-	<li class="step">That&#8217;s it. Showtime!</li>
+  <li class="step">Step 1: Write your slides in plain text using a wiki-style markup language</li>
+  <li class="step">Step 2: Build your slide show using the <code>slideshow</code> gem</li>
+  <li class="step">Step 3: Open up your slide show in your browser and hit the space bar to flip through your slides</li>
+  <li class="step">That&#8217;s it. Showtime!</li>
   </ul>
   </div>
-
+  
   <div class='slide'>
   <h1>Wiki-Style Markup Language &#8211; Markdown</h1>
   <p>Lets you create slide shows and author slides in plain text using a wiki-style markup language that&#8217;s easy-to-write and easy-to-read.
   Sample:</p>
   <pre class='code'>
   # What's Slide Show (S9)?
-
+  
   ### What? 
-
+  
   A Free Web Alternative to PowerPoint and Keynote in Ruby
-
+  
   ### Getting Started in 1-2-3 Easy Steps
-
+  
   - Step 1: Write your slides in plain text using a wiki-style markup language
   - Step 2: Build your slide show using the `slideshow` gem
   - Step 3: Open up your slide show in your browser 
@@ -87,7 +90,7 @@ content: |
   that&#8217;s an all-in-one-page handout and a live slide show all at once.</p>
   <pre class='code'>
   $ slideshow build tutorial
-
+  
   =&gt; Preparing slideshow 'tutorial.html'...
   =&gt; Done.
   </pre>
@@ -96,7 +99,7 @@ content: |
   or page down key to flip through your slides.</p>
   <p>That&#8217;s all. It&#8217;s that simple.</p>
   </div>
-
+  
   <div class='slide'>
   <h1>Slide Show (S9) Template Pack Options</h1>
   <!-- begin left {} -->
@@ -115,11 +118,11 @@ content: |
   <p>(Use the <code>s6blank</code> or <code>s6syntax</code> template pack to create S6 slide shows.)</p>
   </td></tr></table>
   <!-- end right -->
-
+  
   <h3>What&#8217;s Slidy? What&#8217;s Google HTML5 Slides?</h3>
   <p>Check the <a href="http://slideshow-s9.github.io/gallery.html">Slide Show (S9) Template Gallery</a>
   for more template packs and samples.</p>
-
+  
   </div>
   
   <div class='slide'>

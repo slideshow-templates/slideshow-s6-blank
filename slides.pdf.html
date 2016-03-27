@@ -1,10 +1,22 @@
+---
+---
+
+{% if jekyll.version %}
+  {% assign headers  = site.data.slides.headers %}
+  {% assign content  = site.data.slides.content %}
+{% else %}
+  {% capture more_content_for_head %}{{ content_for :head }}{% endcapture %}
+  {% capture more_content_for_css %}{{ content_for :css }}{% endcapture %}
+{% endif %}
+
+
 <!DOCTYPE html>
 <html>
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-   <title><%= @headers['title'] %></title>
+   <title>{{ headers['title'] }}</title>
    
-   <%= content_for :head %>
+   {{ more_content_for_head }}
 
 <style>
 html, body { margin: 0; padding: 0; }
@@ -41,7 +53,7 @@ ul { list-style-type: square; }
 */
        }
 
-<%= content_for :css %>
+{{ more_content_for_css }}
 
 /*
 for princexml (CSS3 paged media support)
@@ -54,9 +66,8 @@ for princexml (CSS3 paged media support)
 
 <div class="presentation">
 
-<%= @content %>
+{{ content }}
 
   </div> <!-- presentation -->
 </body>
 </html> 
-
