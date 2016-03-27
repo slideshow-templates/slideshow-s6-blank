@@ -15,6 +15,11 @@ Note, this template pack includes **no** vector graphics gradient themes "out-of
 The background is blank (white) and the text color is black.
 Change the background and colors to your need.
  
+## Live Preview
+
+See [slides.html](http://slideshow-templates.github.io/slideshow-s6-blank/slides.html) and [slides.pdf.html](http://slideshow-templates.github.io/slideshow-s6-blank/slides.pdf.html).
+
+
 ## Try It Yourself - How To Use the Template Pack
 
 If you want to try it yourself, install (fetch) the new template pack. Issue the command:
