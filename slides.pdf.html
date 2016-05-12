@@ -1,12 +1,9 @@
 ---
 ---
 
-{% if jekyll.version %}
+{% if jekyll %}
   {% assign headers  = site.data.slides.headers %}
   {% assign content  = site.data.slides.content %}
-{% else %}
-  {% capture more_content_for_head %}{{ content_for :head }}{% endcapture %}
-  {% capture more_content_for_css %}{{ content_for :css }}{% endcapture %}
 {% endif %}
 
 
