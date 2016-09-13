@@ -2,6 +2,8 @@
 
 ## Live Preview
 
+![](preview.png)
+
 See [`slides.html`](http://slideshow-templates.github.io/slideshow-s6-blank/slides.html)
 and [`slides.pdf.html`](http://slideshow-templates.github.io/slideshow-s6-blank/slides.pdf.html).
 
