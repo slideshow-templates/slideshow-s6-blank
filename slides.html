@@ -4,9 +4,7 @@
 {% if jekyll %}
   {% assign headers  = site.data.slides.headers %}
   {% assign content  = site.data.slides.content %}
-  {% assign style_css = 'style.css' %}
-{% else %}
-  {% capture style_css %}{{ name }}.css{% endcapture %}
+  {% assign name     = 'style' %}
 {% endif %}
 
 <!DOCTYPE html>
@@ -19,7 +17,7 @@
 <meta name="author"    content="{{ headers['author'] }}" >
 
 <!-- S6 style sheet links -->
-<link rel="stylesheet" href="{{ style_css }}"  media="projection" id="styleProjection">
+<link rel="stylesheet" href="{{ name }}.css"   media="projection" id="styleProjection">
 <link rel="stylesheet" href="s6/screen.css"    media="screen"     id="styleScreen">
 <link rel="stylesheet" href="s6/print.css"     media="print">
 
