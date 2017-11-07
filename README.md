@@ -4,8 +4,8 @@
 
 ![](preview.png)
 
-See [`slides.html`](http://slideshow-templates.github.io/slideshow-s6-blank-v1/slides.html)
-and [`slides.pdf.html`](http://slideshow-templates.github.io/slideshow-s6-blank-v1/slides.pdf.html).
+See [`slides.html`](http://slideshow-templates.github.io/slideshow-s6-blank/slides.html)
+and [`slides.pdf.html`](http://slideshow-templates.github.io/slideshow-s6-blank/slides.pdf.html).
 
 
 ## What's Slide Show (S9)?
@@ -16,7 +16,7 @@ More [Slide Show (S9) Project Site »](http://slideshow-s9.github.io)
 
 ## Intro
 
-The [S6 Blank v1](https://github.com/slidekit/s6) package bundled up into
+The [S6 Blank](https://github.com/slidekit/s6) package bundled up into
 a Slide Show (S9) template pack.
 
 Note, this template pack includes **no** vector graphics gradient themes "out-of-the-box".

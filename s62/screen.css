@@ -8,7 +8,8 @@
   overflow: hidden;
 
   background-color: #eee;
-  font-size: 2em;
+  /* font-size: 2em;  */
+  
   /* text-align: center;  */
   /* background-position: 50% 50%; -- check -- needed?? why? why not? just for animations? */
 }
