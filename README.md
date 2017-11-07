@@ -1,5 +1,5 @@
 > Note: This is the old (archived) S6 Blank version anno 2016 with the jquery library.
-> See the [new version, that is, `//slideshow-s6-blank`](https://github.com/slideshow-templates/slideshow-s6-blank)
+> See the [new version, that is, `/slideshow-s6-blank`](https://github.com/slideshow-templates/slideshow-s6-blank)
 > for the latest (and greatest) slides machinery. Thanks.  
 
 
