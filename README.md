@@ -1,4 +1,9 @@
-# S6 Blank - Slide Show (S9) Template Pack
+> Note: This is the old (archived) S6 Blank version anno 2016 with the jquery library.
+> See the [new version, that is, `//slideshow-s6-blank`](https://github.com/slideshow-templates/slideshow-s6-blank)
+> for the latest (and greatest) slides machinery. Thanks.  
+
+
+# S6 Blank - Slide Show (S9) Template Pack v1
 
 ## Live Preview
 
@@ -16,7 +21,7 @@ More [Slide Show (S9) Project Site »](http://slideshow-s9.github.io)
 
 ## Intro
 
-The [S6 Blank](https://github.com/slidekit/s6) package bundled up into 
+The [S6 Blank v1](https://github.com/slidekit/s6-v1) package bundled up into 
 a Slide Show (S9) template pack.
 
 Note, this template pack includes **no** vector graphics gradient themes "out-of-the-box".
