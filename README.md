@@ -1,9 +1,4 @@
-> Note: This is the old (archived) S6 Blank version anno 2016 with the jquery library.
-> See the [new version, that is, `/slideshow-s6-blank`](https://github.com/slideshow-templates/slideshow-s6-blank)
-> for the latest (and greatest) slides machinery. Thanks.  
-
-
-# S6 Blank - Slide Show (S9) Template Pack v1
+# S6 Blank - Slide Show (S9) Template Pack
 
 ## Live Preview
 
@@ -21,13 +16,13 @@ More [Slide Show (S9) Project Site »](http://slideshow-s9.github.io)
 
 ## Intro
 
-The [S6 Blank v1](https://github.com/slidekit/s6-v1) package bundled up into 
+The [S6 Blank v1](https://github.com/slidekit/s6) package bundled up into
 a Slide Show (S9) template pack.
 
 Note, this template pack includes **no** vector graphics gradient themes "out-of-the-box".
 The background is blank (white) and the text color is black.
 Change the background and colors to your need.
- 
+
 
 ## Try It Yourself - How To Use the Template Pack
 
@@ -53,7 +48,7 @@ Now you're ready to use it using the `-t/--template` switch. Example:
 
     $ slideshow build tutorial -t s6blank
 
-That's it. 
+That's it.
 
 
 ## Questions? Comments?
@@ -61,4 +56,3 @@ That's it.
 Questions? Comments?
 Send them along to the [wwwmake forum/mailing list](http://groups.google.com/group/wwwmake).
 Thanks!
-

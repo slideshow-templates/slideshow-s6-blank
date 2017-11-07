@@ -1,5 +1,9 @@
 #  S6 blank template package manifest
 
+
+### todo/fix - needs to get fixed for v2 !!!!!
+
+
 __file__.html   slides.html
 __file__.css    style.css
 
@@ -20,4 +24,3 @@ s6/jquery.slideshow.js
 # -- from javascript free web page
 
 __file__.pdf.html  slides.pdf.html
-

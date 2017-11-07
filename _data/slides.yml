@@ -7,7 +7,7 @@ headers:
 
 
 content: |
-  <div class='slide'>
+  <section class='slide'>
   <h1>Slide Show (S9) 10-Minute Tutorial</h1>
   <p>Agenda</p>
   <ul>
@@ -49,9 +49,9 @@ content: |
   </table>
   </div>
   <!-- end help -->
-  </div>
-  
-  <div class='slide'>
+  </section>
+
+  <section class='slide'>
   <h1>What&#8217;s Slide Show (S9)?</h1>
   <h3>What?</h3>
   <p>A Free Web Alternative to PowerPoint and Keynote in Ruby</p>
@@ -62,35 +62,35 @@ content: |
   <li class="step">Step 3: Open up your slide show in your browser and hit the space bar to flip through your slides</li>
   <li class="step">That&#8217;s it. Showtime!</li>
   </ul>
-  </div>
-  
-  <div class='slide'>
+  </section>
+
+  <section class='slide'>
   <h1>Wiki-Style Markup Language &#8211; Markdown</h1>
   <p>Lets you create slide shows and author slides in plain text using a wiki-style markup language that&#8217;s easy-to-write and easy-to-read.
   Sample:</p>
   <pre class='code'>
   # What's Slide Show (S9)?
-  
-  ### What? 
-  
+
+  ### What?
+
   A Free Web Alternative to PowerPoint and Keynote in Ruby
-  
+
   ### Getting Started in 1-2-3 Easy Steps
-  
+
   - Step 1: Write your slides in plain text using a wiki-style markup language
   - Step 2: Build your slide show using the `slideshow` gem
-  - Step 3: Open up your slide show in your browser 
+  - Step 3: Open up your slide show in your browser
   - That's it. Showtime!
   </pre>
-  </div>
-  
-  <div class='slide'>
+  </section>
+
+  <section class='slide'>
   <h1>How it works &#8211; Just press F11!</h1>
-  <p>The Slide Show (S9) Ruby gem turns your slides in plain text into a web page 
+  <p>The Slide Show (S9) Ruby gem turns your slides in plain text into a web page
   that&#8217;s an all-in-one-page handout and a live slide show all at once.</p>
   <pre class='code'>
   $ slideshow build tutorial
-  
+
   =&gt; Preparing slideshow 'tutorial.html'...
   =&gt; Done.
   </pre>
@@ -98,9 +98,9 @@ content: |
   with a single push button (F11).  Hit the space bar or the right arrow, down arrow
   or page down key to flip through your slides.</p>
   <p>That&#8217;s all. It&#8217;s that simple.</p>
-  </div>
-  
-  <div class='slide'>
+  </section>
+
+  <section class='slide'>
   <h1>Slide Show (S9) Template Pack Options</h1>
   <!-- begin left {} -->
   <table width='100%'><tr><td width='50%' markdown='block' style='vertical-align: top;'>
@@ -118,16 +118,16 @@ content: |
   <p>(Use the <code>s6blank</code> or <code>s6syntax</code> template pack to create S6 slide shows.)</p>
   </td></tr></table>
   <!-- end right -->
-  
+
   <h3>What&#8217;s Slidy? What&#8217;s Google HTML5 Slides?</h3>
   <p>Check the <a href="http://slideshow-s9.github.io/gallery.html">Slide Show (S9) Template Gallery</a>
   for more template packs and samples.</p>
-  
-  </div>
-  
-  <div class='slide'>
+
+  </section>
+
+  <section class='slide'>
   <h1>Thank You &#8211; Learn More &#8211; Questions? Comments?</h1>
-  <p>Gerald Bauer designed and developed the Slide Show (S9) Ruby gem. 
+  <p>Gerald Bauer designed and developed the Slide Show (S9) Ruby gem.
   Find out more @ <a href="http://slideshow-s9.github.io">slideshow-s9.github.io</a></p>
   <p>Questions? Comments? Send them along to the <a href="http://groups.google.com/group/wwwmake">wwwmake forum/mailing list</a>. Thanks!</p>
-  </div>
+  </section>

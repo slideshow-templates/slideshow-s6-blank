@@ -8,7 +8,7 @@
 {% endif %}
 
 {% comment %}
-<!-- todo: fix if jekyll  - not working in liqud 4+ if not defined?? 
+<!-- todo: fix if jekyll  - not working in liqud 4+ if not defined??
         assign name workaround - change back to to style_css with caputure or similar -->
 {% endcomment %}
 
@@ -16,50 +16,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <meta http-equiv="content-type" content="text/html;charset=utf-8"> 
+   <meta charset="utf-8">
    <title>{{ headers['title'] }}</title>
 
 <meta name="generator" content="{{ headers['generator'] }}">
 <meta name="author"    content="{{ headers['author'] }}" >
 
 <!-- S6 style sheet links -->
-<link rel="stylesheet" href="{{ name }}.css"   media="projection" id="styleProjection">
-<link rel="stylesheet" href="s6/screen.css"    media="screen"     id="styleScreen">
-<link rel="stylesheet" href="s6/print.css"     media="print">
-
-<!-- S6 JS -->
-<script src="s6/jquery.js"></script>
-<script src="s6/jquery.slideshow.js"></script>
-<script>
-  $(document).ready( function() {
-    Slideshow.init();
-  } );
-
-  {{ more_content_for_js }}
-</script>
-
-<!-- Better Browser Banner for Microsoft Internet Explorer (IE) -->
-<!--[if IE]>
-<script src="s6/jquery.microsoft.js"></script>
-<![endif]-->
+<link rel="stylesheet" href="s62/screen.css">
+<link rel="stylesheet" href="{{ name }}.css">
 
   {{ more_content_for_head }}
 
 </head>
 <body>
 
-<div class="layout"> 
-  <div id="header"></div>
-  <div id="footer">
-    <h1>{{ headers['footer'] }}</h1>
-    <h2>{{ headers['subfooter'] }}</h2>
-  </div>
-</div>
+<article id="presentation">
 
-<div class="presentation">
-   
 {{ content }}
 
-</div><!-- presentation -->
+</article><!-- presentation -->
+
+<!-- S6 JS -->
+  <script src="s62/slides.keys.js"></script>
+  <script src="s62/slides.progress.js"></script>
+  <script src="s62/slides.classes.js"></script>
+  <script src="s62/slides.engine.js"></script>
+  <script>
+     const {Deck, classes, keys, progress} = S6;
+     const deck = Deck.from( "#presentation", [classes(), keys(), progress()] );
+
+     {{ more_content_for_js }}
+  </script>
+  
 </body>
 </html>
