@@ -9,8 +9,8 @@
 
 ![](preview.png)
 
-See [`slides.html`](http://slideshow-templates.github.io/slideshow-s6-blank/slides.html)
-and [`slides.pdf.html`](http://slideshow-templates.github.io/slideshow-s6-blank/slides.pdf.html).
+See [`slides.html`](http://slideshow-templates.github.io/slideshow-s6-blank-v1/slides.html)
+and [`slides.pdf.html`](http://slideshow-templates.github.io/slideshow-s6-blank-v1/slides.pdf.html).
 
 
 ## What's Slide Show (S9)?
