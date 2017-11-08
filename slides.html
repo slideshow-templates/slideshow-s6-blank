@@ -2,8 +2,9 @@
 ---
 
 {% if jekyll %}
-  {% assign headers  = site.data.slides.headers %}
-  {% assign content  = site.data.slides.content %}
+  {% assign headers   = site.headers %}
+  {% assign slides    = site.slides %}
+  {% assign content   = site.data.slides.content %}
   {% assign name     = 'style' %}
 {% endif %}
 
@@ -33,7 +34,11 @@
 
 <article id="presentation">
 
-{{ content }}
+{% for slide in slides %}
+<section class="slide {{ slide.classes }}" id="{{ forloop.index }}">
+  {{ slide.content }}
+</section>
+{% endfor %}
 
 </article><!-- presentation -->
 
@@ -48,6 +53,6 @@
 
      {{ more_content_for_js }}
   </script>
-  
+
 </body>
 </html>

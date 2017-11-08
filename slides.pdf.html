@@ -2,8 +2,8 @@
 ---
 
 {% if jekyll %}
-  {% assign headers  = site.data.slides.headers %}
-  {% assign content  = site.data.slides.content %}
+  {% assign headers   = site.headers %}
+  {% assign slides    = site.slides %}
 {% endif %}
 
 
@@ -63,7 +63,11 @@ for princexml (CSS3 paged media support)
 
 <article id="presentation">
 
-{{ content }}
+{% for slide in slides %}
+<section class="slide {{ slide.classes }}" id="{{ forloop.index }}">
+  {{ slide.content }}
+</section>
+{% endfor %}
 
 </article> <!-- presentation -->
 </body>

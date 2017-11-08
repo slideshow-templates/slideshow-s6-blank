@@ -1,12 +1,6 @@
 ---
 ---
 
-{% if jekyll.version %}
-{% else %}
-  {% capture more_content_for_css %}{{ content_for :css }}{% endcapture %}
-{% endif %}
-
-
 
 body { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; }
 

@@ -1,8 +1,20 @@
 #####
 #  GitHub Pages / Jekyll settings / config
 
+headers:
+  title:     Slide Show (S9) 10-Minute Tutorial
+  author:    Gerald Bauer et al
+  generator: GitHub Pages w/ Jekyll
+  footer:    Your Footer Here
+  subfooter: Your Subfooter Here
+
+
+collections:
+  slides:
+    output: false
+
+
 exclude:
 - README.md
 - s6blank.txt
 - package.json
-
