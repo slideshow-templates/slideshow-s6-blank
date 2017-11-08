@@ -1,7 +1,5 @@
-#  S6 blank template package manifest
+#  S6 v2 blank template package manifest
 
-
-### todo/fix - needs to get fixed for v2 !!!!!
 
 
 __file__.html   slides.html
@@ -9,15 +7,16 @@ __file__.css    style.css
 
 # styles
 
-s6/projection.css
-s6/screen.css
-s6/print.css
+s62/screen.css
 
 # javascript machinery
 
-s6/jquery.js
-s6/jquery.microsoft.js
-s6/jquery.slideshow.js
+s62/slides.classes.js
+s62/slides.engine.js
+s62/slides.keys.js
+s62/slides.progress.js
+
+
 
 # template for pdf generation
 # -- use html-to-pdf tool (such as wkhtmltopdf, prince, etc) to generate pdf

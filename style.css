@@ -7,7 +7,64 @@
 {% endif %}
 
 
-/*
-  nothing here for now;
-   move over from (old) v1
-*/
+
+body { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; }
+
+a:link, a:visited { color: black; }
+
+ul { list-style-type: square; }
+
+
+
+/***************************************
+ *  note: for bespoke.js compatibility use  bespoke-slide (instead of slide) etc. */
+
+.bespoke-slide h1.fullscreen {
+    position: absolute;
+    top: 40%;
+    width: 100%; }
+
+/* lets you create slides with no heading (because heading is hidden but gets included in toc) */
+.bespoke-slide h1.hidden     { display: none; }
+
+
+
+
+/**********************************/
+/* general text-alignment classes */
+
+.left   { text-align: left; }
+.center { text-align: center; }
+.right  { text-align: right;  }
+
+/**********************************/
+/* general font-size classes      */
+
+.small { font-size: 97%; }
+
+.x-small,
+.smaller   { font-size: 88%; }
+
+.xx-small,
+.smallest,
+.tiny      { font-size: 82%; }
+
+
+.footnote { font-size: 88%; }
+.footnote a:first-of-type  { text-decoration: none; }
+
+
+
+
+.code {
+        background-color: azure;
+        padding: 5px;
+      }
+
+
+
+.help p,
+.help td  { font-size: 88%; }
+
+
+{{ more_content_for_css }}
