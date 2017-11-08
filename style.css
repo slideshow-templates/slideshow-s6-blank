@@ -1,6 +1,11 @@
 ---
 ---
 
+/******************************
+ *note: wrap everything is @media screen - why?  do NOT mess up printing with position: absolute etc. */
+
+
+@media screen {
 
 body { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; }
 
@@ -61,4 +66,9 @@ pre { padding: 4px 4px 4px 4px;
 .help td  { font-size: 88%; }
 
 
+/*********
+ * note: for now custom css also gets "auto-wrapped" with @media screen */
+    
 {{ more_content_for_css }}
+
+} /* @media screen */
