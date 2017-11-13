@@ -12,9 +12,10 @@ s62/screen.css
 # javascript machinery
 
 s62/slides.classes.js
-s62/slides.engine.js
+s62/slides.kernel.js
 s62/slides.keys.js
 s62/slides.progress.js
+s62/slides.state.js
 
 
 
